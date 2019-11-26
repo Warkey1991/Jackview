@@ -15,7 +15,7 @@ import android.widget.RelativeLayout;
 /**
  * Description：.
  * Author：Created by YJ_Song on 2019-11-25.
- * Email:  songyuanjin@innotechx.com
+ * Email:  warkey1991@gmail.com
  */
 public class LuckyDrawLayout extends RelativeLayout {
     private static final String TAG = "LuckyDrawLayout";

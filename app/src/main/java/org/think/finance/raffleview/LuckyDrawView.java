@@ -19,7 +19,7 @@ import java.util.Random;
 /**
  * Description：.
  * Author：Created by YJ_Song on 2019-11-25.
- * Email:  songyuanjin@innotechx.com
+ * Email:  warkey1991@gmail.com
  */
 public class LuckyDrawView extends View {
     private static final String TAG = "LuckyDrawView";

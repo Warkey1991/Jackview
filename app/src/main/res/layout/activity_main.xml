@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.think.finance.raffleview.LuckyDrawLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:layout_margin="10dp">
+    <Button
+        android:onClick="nineClick"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="九宫格" />
 
-        <org.think.finance.raffleview.LuckyDrawView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true" />
-    </org.think.finance.raffleview.LuckyDrawLayout>
+    <Button
+        android:onClick="lottoClick"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="彩票" />
 
-</RelativeLayout>
+</LinearLayout>

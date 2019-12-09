@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <org.think.finance.lottoview.LottoView
+        android:id="@+id/lotto_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <org.think.finance.lottoview.LottoCircleProgressView
+        android:id="@+id/lotto_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/countDownTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="36h 48m"
+        android:textColor="#FFDF00"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:text="Countdown to drawing"
+        android:textColor="#FFDF00"
+        android:textSize="18sp" />
+</RelativeLayout>

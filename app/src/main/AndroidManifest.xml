@@ -19,6 +19,7 @@
 
         <activity android:name="org.think.finance.LottoViewActivity" />
         <activity android:name="org.think.finance.LuckyDrawActivity" />
+        <activity android:name="org.think.finance.CoinViewActivity" />
     </application>
 
 </manifest>

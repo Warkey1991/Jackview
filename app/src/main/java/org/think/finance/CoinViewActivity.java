@@ -8,13 +8,14 @@ import org.think.finance.raffleview.R;
 
 /**
  * Description：.
- * Author：Created by YJ_Song on 2019-12-09.
+ * Author：Created by YJ_Song on 2019-12-10.
  * Email:  songyuanjin@innotechx.com
  */
-public class LuckyDrawActivity extends AppCompatActivity {
+public class CoinViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lucky_draw_view);
+
+        setContentView(R.layout.activity_coin_view);
     }
 }

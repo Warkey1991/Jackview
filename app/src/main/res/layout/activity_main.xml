@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <Button
-        android:onClick="nineClick"
         android:layout_width="200dp"
         android:layout_height="60dp"
+        android:onClick="nineClick"
         android:text="九宫格" />
 
     <Button
-        android:onClick="lottoClick"
         android:layout_width="200dp"
         android:layout_height="60dp"
+        android:onClick="lottoClick"
         android:text="彩票" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:onClick="coinClick"
+        android:text="金币动画" />
 
 </LinearLayout>

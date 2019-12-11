@@ -77,12 +77,16 @@ public class LottoView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         canvas.translate(getWidth() / 2.0f, getHeight() / 2.0f);
+        //绘制背景圆
         canvas.drawCircle(0, 0, raduis, paint);
+
+        //绘制直线
         canvas.drawLine(0, -innerRaduis, 0, -midRadius + lineLength, linePaint);
         canvas.drawLine(innerRaduis, 0, midRadius - lineLength, 0, linePaint);
         canvas.drawLine(0, innerRaduis, 0, midRadius - lineLength, linePaint);
         canvas.drawLine(-innerRaduis, 0, -midRadius + lineLength, 0, linePaint);
 
+        //绘制圆弧
         rectF.set(-midRadius, -midRadius, midRadius, midRadius);
         canvas.drawArc(rectF, -85, 80, false, linePaint); //5
         canvas.drawArc(rectF, 5, 80, false, linePaint);  //10---- 85

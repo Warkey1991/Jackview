@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, LottoViewActivity.class));
 
     }
+
+    public void coinClick(View v) {
+        startActivity(new Intent(MainActivity.this, CoinViewActivity.class));
+
+    }
 }

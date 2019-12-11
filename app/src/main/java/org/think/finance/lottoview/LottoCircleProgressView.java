@@ -12,6 +12,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
+
 import org.think.finance.raffleview.R;
 
 /**
@@ -111,6 +112,4 @@ public class LottoCircleProgressView extends View {
         valueAnimator.setRepeatMode(ValueAnimator.RESTART);
         valueAnimator.start();
     }
-
-
 }

@@ -75,7 +75,9 @@ public class CoinMoveView extends View {
         setMeasuredDimension(width, height);
 
         leftPath.moveTo(width / 2, height / 2);
-        leftPath.quadTo(width / 4, height / 4, width - 100, 0);
+        float x1 = (width / 2 + width - 100) / 6;
+        float y1 = (height / 2 + 100) / 2;
+        leftPath.quadTo(x1, y1, width - 100, 100);
         pathMeasure.setPath(leftPath, false);
         mesureLen = pathMeasure.getLength();
         leftCoins.clear();
@@ -89,8 +91,8 @@ public class CoinMoveView extends View {
         }
 
         rightPath.moveTo(width / 2, height / 2);
-        PointF point = reflexPoint(width / 2, height / 2, width - 100, 0, width / 4, height / 4);
-        rightPath.quadTo(point.x, point.y, width - 100, 0);
+        PointF point = reflexPoint(width / 2, height / 2, width - 100, 100, x1, y1);
+        rightPath.quadTo(point.x, point.y, width - 100, 100);
 
         rightpathMeasure.setPath(rightPath, false);
         float rightLen = rightpathMeasure.getLength();

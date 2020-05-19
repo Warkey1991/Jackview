@@ -22,4 +22,10 @@
         android:onClick="coinClick"
         android:text="金币动画" />
 
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:onClick="sportClick"
+        android:text="steps动画" />
+
 </LinearLayout>

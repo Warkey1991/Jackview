@@ -21,11 +21,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void lottoClick(View v) {
         startActivity(new Intent(MainActivity.this, LottoViewActivity.class));
-
     }
 
     public void coinClick(View v) {
         startActivity(new Intent(MainActivity.this, CoinViewActivity.class));
+    }
 
+    public void sportClick(View v) {
+        startActivity(new Intent(MainActivity.this, SportActivity.class));
     }
 }

@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.think.finance.coinview.CoinMoveView
+    <org.think.finance.coinview.NewCoinMoveView
+        android:id="@+id/new_coinMoveView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </RelativeLayout>

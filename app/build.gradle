@@ -25,12 +25,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
-project.afterEvaluate {
-    preBuild.doLast {
-       copy {
-           from('build/outputs/apk/debug/*.apk')
-           into('./dist/')
-       }
+task apkUpload(dependsOn: ['assembleRelease']) {
+    doLast {
+        copy {
+            from('build/outputs/apk/debug/app-debug.apk')
+            println("do assembleReleasexxxx")
+            into('../dist/')
+        }
     }
 }
 

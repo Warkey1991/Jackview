@@ -28,4 +28,22 @@
         android:onClick="sportClick"
         android:text="steps动画" />
 
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:onClick="checkInClick"
+        android:text="CheckIn" />
+
+    <Button
+        android:id="@+id/coinRain"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="CoinRain" />
+
+    <Button
+        android:id="@+id/startBeriz"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:onClick="startBeriz"
+        android:text="贝塞尔" />
 </LinearLayout>

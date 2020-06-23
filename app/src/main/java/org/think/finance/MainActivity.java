@@ -13,6 +13,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        findViewById(R.id.coinRain).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, CoinRainActivity.class));
+            }
+        });
     }
 
     public void nineClick(View v) {
@@ -30,4 +37,14 @@ public class MainActivity extends AppCompatActivity {
     public void sportClick(View v) {
         startActivity(new Intent(MainActivity.this, SportActivity.class));
     }
+
+    public void checkInClick(View v) {
+        startActivity(new Intent(MainActivity.this, CheckInActivity.class));
+    }
+
+    public void startBeriz(View v) {
+        startActivity(new Intent(MainActivity.this, SVGActivity.class));
+    }
+
+
 }
